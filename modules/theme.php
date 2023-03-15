@@ -22,14 +22,13 @@
             {
                 include __DIR__.'/createDatabase.php';
                 $head = new Head("Tworzenie bazy danych", "/css/theme.css");
-                $head->get_head();
             }
             else
             {
                 include __DIR__.'/loginPanel.php';
                 $head = new Head("Panel logowania", "/css/theme.css");
-                $head->get_head();
             }
+            $head->get_head();
         ?>
         <footer class="container-fluid page-footer position-fixed fixed-bottom">
             <p class="footer-copyright text-center">&copy; Created by Rafał Wałach | RWDesigner</p>
