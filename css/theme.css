@@ -1,0 +1,79 @@
+#scrollTable
+{
+    overflow: auto;
+    height: 65vh;
+}
+
+#scrollTableWithoutActions
+{
+    overflow: auto;
+    height: 50vh;
+}
+#counter-workout, #counter-series
+{
+    font-size: 100%;
+    font-weight: bold;
+    margin: 2%;
+    text-align: center;
+    
+}
+header, footer, nav
+{
+  background-color: #002a5a;
+}
+
+footer
+{
+    height: 8vh;
+    line-height: 8vh;
+}
+
+header img
+{
+    width: 100%;
+    height: auto;
+}
+
+main
+{
+    background-color: #fff;
+    margin-bottom: 10%;
+}
+
+form small a
+{
+    color: #002a5a;
+    cursor: pointer;
+}
+form
+{
+    font-family: sans-serif;
+}
+
+footer p
+{
+    color: #fff;
+    font-size: 80%;
+    font-family: sans-serif;
+}
+
+#logout-form
+{
+    position: absolute;
+    right: 4%;
+    top: 4%;
+    min-width: 6%;
+}
+
+#logout-form input
+{
+    font-size: 100%;
+    font-family: sans-serif;
+    padding: 8px;
+    background: none;
+    color: #fff;
+    border: 1px groove orange;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
