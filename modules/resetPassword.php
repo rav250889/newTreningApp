@@ -43,19 +43,19 @@
                         $mail = new PHPMailer\PHPMailer\PHPMailer();
                         
                         $mail->PluginDir = $_SERVER['DOCUMENT_ROOT']."/classes/PHPMailer/src/";
-                        $mail->Host = "ssl://hosting2287854.online.pro";
+                        $mail->Host = "";
                         $mail->Port = 465;	
 
                         $mail->SMTPKeepAlive = true;  					
                         $mail->SMTPAuth = true;
-                        $mail->Username = "admin@rafalwalach.pl";
-                        $mail->Password = "Jakub0515!@";	
+                        $mail->Username = "";
+                        $mail->Password = "";	
 
                         $mail->SetLanguage("pl", $_SERVER['DOCUMENT_ROOT']."/classes/PHPMailer/language/");				
                         $mail->CharSet = "UTF-8";	
                         $mail->ContentType = "text/html";					
 
-                        $mail->From = "admin@rafalwalach.pl";	
+                        $mail->From = "l";	
                         $mail->FromName = "Trening";
                         $mail->Subject = "Nowe hasło";
                         $mail->Body = '<h3>Poniżej znajduje się Twoje nowe hasło. Po zalogowaniu zmień je natychmiast!</h3>'
